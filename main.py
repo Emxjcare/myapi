@@ -5,12 +5,13 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, FastAPI!"}
+    return {"message": "Bem Vindo a EmX Software Services!"}
 
 
 @app.get("/names")
 def read_root():
     return [{1:'Manuel'},{2:'EmX'}]
+
 
 
 
