@@ -11,8 +11,8 @@ def read_root():
 @app.get("/capitulos")
 def capitulos():
     return [
-        {'id': 1, 'capitulo': 'Informatica'},
-        {'id': 2, 'capitulo': 'Computador'}
+        {'id': 1, 'capitulo': 'Informatica New'},
+        {'id': 2, 'capitulo': 'Computador nova era'}
     ]
 
 @app.get("/names")
